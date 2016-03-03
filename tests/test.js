@@ -10,5 +10,20 @@ smdrClient.on('outgoingCall', event => {
 
 });
 
+smdrClient.on('incomingCall', event => {
 
+    console.log(event);
 
+});
+
+smdrClient.on('transferedCall', event => {
+
+    console.log(event);
+
+});
+
+smdrClient.on('extensionCall', event => {
+
+    console.log(event);
+
+});
