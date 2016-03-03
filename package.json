@@ -1,6 +1,6 @@
 {
   "name": "nec-smdr",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get live SMDR data from a NEC Univerge PBX",
   "main": "app.js",
   "scripts": {
