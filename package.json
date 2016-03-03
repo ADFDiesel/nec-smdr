@@ -1,8 +1,8 @@
 {
   "name": "nec-smdr",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Get live SMDR data from a NEC Univerge PBX",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,10 +12,22 @@
     "call",
     "recordings"
   ],
-  "author": "Jacques Lareau",
+  "author": "Jacques Lareau <jacques.lareau@adfdiesel.com>",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.6.1",
     "moment": "^2.11.2"
+  },
+  "bugs": {
+    "url" : "https://github.com/ADFDiesel/nec-smdr/issues",
+    "email" : "jacques.lareau@adfdiesel.com"
+  },
+  "homepage": "https://github.com/ADFDiesel/nec-smdr",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ADFDiesel/nec-smdr.git"
+  },
+  "engines" : {
+    "node" : ">=5.0.0"
   }
 }
