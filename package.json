@@ -1,0 +1,20 @@
+{
+  "name": "nec-smdr",
+  "version": "1.0.0",
+  "description": "Get live SMDR data from a NEC Univerge PBX",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nec",
+    "smdr",
+    "call",
+    "recordings"
+  ],
+  "author": "Jacques Lareau",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.6.1"
+  }
+}
